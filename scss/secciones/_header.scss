@@ -1,0 +1,33 @@
+.img-fondo a img{
+    width: 15vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(182, 157, 119, 0.575);
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(22, 40, 139);
+}
+
+header nav ul li a:hover{
+    color: red;
+}
